@@ -273,7 +273,7 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=DYVCVJLL
+DocumentUniqueId=NYWXGNUR
 
 [Document15]
 DocumentPath=SOC_PL_Banks_63_64_65_DDR4.SchDoc
@@ -290,7 +290,7 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=SQPFAPQX
+DocumentUniqueId=KMEQGESM
 
 [Document16]
 DocumentPath=SOC_PL_Banks_RTM_IO_MISC.SchDoc
@@ -324,7 +324,7 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=DVNMGBNA
+DocumentUniqueId=CXWYRKLF
 
 [Document18]
 DocumentPath=SOC_GTR.SchDoc
@@ -892,7 +892,7 @@ UniqueID=6A6FDC47-A0F5-417B-8E3A-0B21F2FEDCFF
 Description=Default
 AllowFabrication=0
 ParameterCount=0
-VariationCount=131
+VariationCount=138
 Variation1=Designator=R354|UniqueId=\YXJRNMRZ\DJUMAVYJ|Kind=1|AlternatePart= 
 Variation2=Designator=R355|UniqueId=\YXJRNMRZ\ONBCGJBB|Kind=1|AlternatePart= 
 Variation3=Designator=R497|UniqueId=\YXJRNMRZ\YIZUWOQT|Kind=1|AlternatePart= 
@@ -1024,6 +1024,13 @@ Variation128=Designator=R523|UniqueId=\YXJRNMRZ\RRHPCRKK\SMQPLPLS|Kind=1|Alterna
 Variation129=Designator=R63|UniqueId=\ABALSBDY|Kind=1|AlternatePart= 
 Variation130=Designator=R99|UniqueId=\FLNQAUOE\XOKPIOHU|Kind=1|AlternatePart= 
 Variation131=Designator=R100|UniqueId=\FLNQAUOE\FKUUVKAH|Kind=1|AlternatePart= 
+Variation132=Designator=R101|UniqueId=\CGVDRIJY\LGZDABLJ|Kind=1|AlternatePart= 
+Variation133=Designator=R102|UniqueId=\CGVDRIJY\GOJAWYMX|Kind=1|AlternatePart= 
+Variation134=Designator=R626|UniqueId=\VLFAKTVI\PNQGIBAA|Kind=1|AlternatePart= 
+Variation135=Designator=R107|UniqueId=\FLNQAUOE\EMBJNFEF|Kind=1|AlternatePart= 
+Variation136=Designator=R5|UniqueId=\LROXXDYB|Kind=1|AlternatePart= 
+Variation137=Designator=IC76|UniqueId=\NYKDFXNO|Kind=1|AlternatePart= 
+Variation138=Designator=C2|UniqueId=\SPLHFRQF|Kind=1|AlternatePart= 
 ParamVariationCount=0
 
 [Configuration1]
@@ -1619,36 +1626,6 @@ OutputName9=Specctra Design PCB
 OutputDocumentPath9=
 OutputVariantName9=
 OutputDefault9=0
-OutputType10=Ansoft Neutral
-OutputName10=Ansoft Neutral (AutoPCB)
-OutputDocumentPath10=
-OutputVariantName10=
-OutputDefault10=0
-OutputType11=HyperLynx
-OutputName11=HyperLynx (AutoPCB)
-OutputDocumentPath11=
-OutputVariantName11=
-OutputDefault11=0
-OutputType12=Orcad v7 Capture Design
-OutputName12=Orcad v7 Capture Design (AutoSCH)
-OutputDocumentPath12=
-OutputVariantName12=
-OutputDefault12=0
-OutputType13=P-CAD ASCII
-OutputName13=P-CAD ASCII (AutoPCB)
-OutputDocumentPath13=
-OutputVariantName13=
-OutputDefault13=0
-OutputType14=P-CAD V16 Schematic Design
-OutputName14=P-CAD V16 Schematic Design (AutoSCH)
-OutputDocumentPath14=
-OutputVariantName14=
-OutputDefault14=0
-OutputType15=SiSoft
-OutputName15=SiSoft (AutoPCB)
-OutputDocumentPath15=
-OutputVariantName15=
-OutputDefault15=0
 
 [OutputGroup10]
 Name=PostProcess Outputs
