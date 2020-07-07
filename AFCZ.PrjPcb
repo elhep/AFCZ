@@ -892,7 +892,7 @@ UniqueID=6A6FDC47-A0F5-417B-8E3A-0B21F2FEDCFF
 Description=Default
 AllowFabrication=0
 ParameterCount=0
-VariationCount=140
+VariationCount=141
 Variation1=Designator=R354|UniqueId=\YXJRNMRZ\DJUMAVYJ|Kind=1|AlternatePart= 
 Variation2=Designator=R355|UniqueId=\YXJRNMRZ\ONBCGJBB|Kind=1|AlternatePart= 
 Variation3=Designator=R497|UniqueId=\YXJRNMRZ\YIZUWOQT|Kind=1|AlternatePart= 
@@ -1033,6 +1033,7 @@ Variation137=Designator=IC76|UniqueId=\NYKDFXNO|Kind=1|AlternatePart=
 Variation138=Designator=C2|UniqueId=\SPLHFRQF|Kind=1|AlternatePart= 
 Variation139=Designator=R87|UniqueId=\XMSSCEEV\SJTUKCSV|Kind=1|AlternatePart= 
 Variation140=Designator=R498|UniqueId=\XMSSCEEV\KSEYAFDH|Kind=1|AlternatePart= 
+Variation141=Designator=L84|UniqueId=\DCRWQNJK\EEOZNVDY\TYNVRHSK|Kind=1|AlternatePart= 
 ParamVariationCount=0
 
 [Configuration1]
