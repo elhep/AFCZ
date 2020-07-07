@@ -837,7 +837,7 @@ GenerateClassCluster=0
 DocumentUniqueId=
 
 [Document48]
-DocumentPath=RTM_Connector.Harness
+DocumentPath=Clock_management_AFCZ.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -854,7 +854,24 @@ GenerateClassCluster=0
 DocumentUniqueId=
 
 [Document49]
-DocumentPath=Clock_management_AFCZ.Harness
+DocumentPath=LPC1776_MMC.Harness
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
+[Document50]
+DocumentPath=RTM_Connector.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -875,7 +892,7 @@ UniqueID=6A6FDC47-A0F5-417B-8E3A-0B21F2FEDCFF
 Description=Default
 AllowFabrication=0
 ParameterCount=0
-VariationCount=138
+VariationCount=140
 Variation1=Designator=R354|UniqueId=\YXJRNMRZ\DJUMAVYJ|Kind=1|AlternatePart= 
 Variation2=Designator=R355|UniqueId=\YXJRNMRZ\ONBCGJBB|Kind=1|AlternatePart= 
 Variation3=Designator=R497|UniqueId=\YXJRNMRZ\YIZUWOQT|Kind=1|AlternatePart= 
@@ -1014,6 +1031,8 @@ Variation135=Designator=R107|UniqueId=\FLNQAUOE\EMBJNFEF|Kind=1|AlternatePart=
 Variation136=Designator=R5|UniqueId=\LROXXDYB|Kind=1|AlternatePart= 
 Variation137=Designator=IC76|UniqueId=\NYKDFXNO|Kind=1|AlternatePart= 
 Variation138=Designator=C2|UniqueId=\SPLHFRQF|Kind=1|AlternatePart= 
+Variation139=Designator=R87|UniqueId=\XMSSCEEV\SJTUKCSV|Kind=1|AlternatePart= 
+Variation140=Designator=R498|UniqueId=\XMSSCEEV\KSEYAFDH|Kind=1|AlternatePart= 
 ParamVariationCount=0
 
 [Configuration1]
@@ -1135,7 +1154,7 @@ OutputDefault20=0
 [OutputGroup2]
 Name=Simulator Outputs
 Description=
-TargetPrinter=Foxit Reader PDF Printer
+TargetPrinter=hp deskjet 920c
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 
 [OutputGroup3]

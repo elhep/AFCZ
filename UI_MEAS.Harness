@@ -1,1 +1,2 @@
 I2C=SDA,SCL
+PMON=Critical,PV,TC,Warning
