@@ -17,7 +17,7 @@ RevisionNamingSchemeGUID=
 [OutputGroup1]
 Name=AFCZ.OutJob
 Description=
-TargetOutputMedium=Folder Structure
+TargetOutputMedium=HL
 VariantName=Default
 VariantScope=1
 CurrentConfigurationName=
@@ -33,6 +33,8 @@ OutputMedium3=Folder Structure
 OutputMedium3_Type=GeneratedFiles
 OutputMedium4=Video
 OutputMedium4_Type=Multimedia
+OutputMedium5=HL
+OutputMedium5_Type=GeneratedFiles
 OutputType1=Schematic Print
 OutputName1=Schematic Prints
 OutputCategory1=Documentation
@@ -43,6 +45,7 @@ OutputEnabled1_OutputMedium1=0
 OutputEnabled1_OutputMedium2=1
 OutputEnabled1_OutputMedium3=0
 OutputEnabled1_OutputMedium4=0
+OutputEnabled1_OutputMedium5=0
 OutputDefault1=0
 PageOptions1=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=0|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
 Configuration1_Name1=OutputConfigurationParameter1
@@ -57,6 +60,7 @@ OutputEnabled2_OutputMedium1=0
 OutputEnabled2_OutputMedium2=0
 OutputEnabled2_OutputMedium3=0
 OutputEnabled2_OutputMedium4=0
+OutputEnabled2_OutputMedium5=0
 OutputDefault2=0
 Configuration2_Name1=OutputConfigurationParameter1
 Configuration2_Item1=Record=PickPlaceView|Units=Metric|GenerateCSVFormat=True|GenerateTextFormat=True|ShowUnits=False|Separator=.|ExcludeFilterParam=False|IncludeVariations=False|Filter= |FilterActive=False|Column#1=Name:Designator,Fixed:True,Metric:False,Visible:True,Sort:None,Position:0|Column#2=Name:Comment,Fixed:True,Metric:False,Visible:True,Sort:None,Position:1|Column#3=Name:Layer,Fixed:True,Metric:False,Visible:True,Sort:None,Position:2|Column#4=Name:Footprint,Fixed:True,Metric:False,Visible:True,Sort:None,Position:3|Column#5=Name:Footprint Description,Fixed:True,Metric:False,Visible:False,Sort:None,Position:4|Column#6=Name:Center-X,Fixed:True,Metric:True,Visible:True,Sort:None,Position:5|Column#7=Name:Center-Y,Fixed:True,Metric:True,Visible:True,Sort:None,Position:6|Column#8=Name:Rotation,Fixed:True,Metric:False,Visible:True,Sort:None,Position:7|Column#9=Name:Description,Fixed:True,Metric:False,Visible:True,Sort:None,Position:8|Column#10=Name:ComponentKind,Fixed:True,Metric:False,Visible:False,Sort:None,Position:9|Column#11=Name:Height,Fixed:True,Metric:True,Visible:False,Sort:None,Position:10|Column#12=Name:Ref-X,Fixed:True,Metric:True,Visible:False,Sort:None,Position:11|Column#13=Name:Ref-Y,Fixed:True,Metric:True,Visible:False,Sort:None,Position:12|Column#14=Name:Pad-X,Fixed:True,Metric:True,Visible:False,Sort:None,Position:13|Column#15=Name:Pad-Y,Fixed:True,Metric:True,Visible:False,Sort:None,Position:14|Column#16=Name:Variation,Fixed:True,Metric:False,Visible:False,Sort:None,Position:15|Column#17=Name:Table,Fixed:False,Metric:False,Visible:False,Sort:None,Position:56|Column#18=Name:ComponentHeight,Fixed:False,Metric:False,Visible:False,Sort:None,Position:23|Column#19=Name:Device,Fixed:False,Metric:False,Visible:False,Sort:None,Position:29|Column#20=Name:SMD,Fixed:False,Metric:False,Visible:False,Sort:None,Position:50|Column#21=Name:Manufacturer1 Part Number,Fixed:False,Metric:False,Visible:False,Sort:None,Position:37|Column#22=Name:ComponentLink2URL,Fixed:False,Metric:False,Visible:False,Sort:None,Position:27|Column#23=Name:Status,Fixed:False,Metric:False,Visible:False,Sort:None,Position:52|Column#24=Name:CreateDate,Fixed:False,Metric:False,Visible:False,Sort:None,Position:28|Column#25=Name:Manufacturer,Fixed:False,Metric:False,Visible:False,Sort:None,Position:33|Column#26=Name:Placement Order Modifier,Fixed:False,Metric:False,Visible:False,Sort:None,Position:45|Column#27=Name:HelpURL,Fixed:False,Metric:False,Visible:False,Sort:None,Position:31|Column#28=Name:Bonding,Fixed:False,Metric:False,Visible:False,Sort:None,Position:18|Column#29=Name:Voltage,Fixed:False,Metric:False,Visible:False,Sort:None,Position:60|Column#30=Name:Case,Fixed:False,Metric:False,Visible:False,Sort:None,Position:19|Column#31=Name:Socket,Fixed:False,Metric:False,Visible:False,Sort:None,Position:51|Column#32=Name:ClassName,Fixed:False,Metric:False,Visible:False,Sort:None,Position:20|Column#33=Name:Part Number,Fixed:False,Metric:False,Visible:False,Sort:None,Position:41|Column#34=Name:Component Type,Fixed:False,Metric:False,Visible:False,Sort:None,Position:22|Column#35=Name:Manufacturer1 ComponentHeight,Fixed:False,Metric:False,Visible:False,Sort:None,Position:35|Column#36=Name:Author,Fixed:False,Metric:False,Visible:False,Sort:None,Position:17|Column#37=Name:Mounted,Fixed:False,Metric:False,Visible:False,Sort:None,Position:38|Column#38=Name:Manufacturer1 Example,Fixed:False,Metric:False,Visible:False,Sort:None,Position:36|Column#39=Name:Placement Comment,Fixed:False,Metric:False,Visible:False,Sort:None,Position:43|Column#40=Name:Placement Order ID,Fixed:False,Metric:False,Visible:False,Sort:None,Position:44|Column#41=Name:Power,Fixed:False,Metric:False,Visible:False,Sort:None,Position:46|Column#42=Name:Supplier,Fixed:False,Metric:False,Visible:False,Sort:None,Position:54|Column#43=Name:ComponentLink2Description,Fixed:False,Metric:False,Visible:False,Sort:None,Position:26|Column#44=Name:Status Comment,Fixed:False,Metric:False,Visible:False,Sort:None,Position:53|Column#45=Name:PackageDescription,Fixed:False,Metric:False,Visible:False,Sort:None,Position:39|Column#46=Name:Family,Fixed:False,Metric:False,Visible:False,Sort:None,Position:30|Column#47=Name:ComponentLink1URL,Fixed:False,Metric:False,Visible:False,Sort:None,Position:25|Column#48=Name:Part Description,Fixed:False,Metric:False,Visible:False,Sort:None,Position:40|Column#49=Name:PressFit,Fixed:False,Metric:False,Visible:False,Sort:None,Position:47|Column#50=Name:Value,Fixed:False,Metric:False,Visible:False,Sort:None,Position:59|Column#51=Name:TC,Fixed:False,Metric:False,Visible:False,Sort:None,Position:57|Column#52=Name:LatestRevisionDate,Fixed:False,Metric:False,Visible:False,Sort:None,Position:32|Column#53=Name:Color,Fixed:False,Metric:False,Visible:False,Sort:None,Position:21|Column#54=Name:SupplierRef,Fixed:False,Metric:False,Visible:False,Sort:None,Position:55|Column#55=Name:Pin Count,Fixed:False,Metric:False,Visible:False,Sort:None,Position:42|Column#56=Name:Resistance,Fixed:False,Metric:False,Visible:False,Sort:None,Position:48|Column#57=Name:ComponentLink1Description,Fixed:False,Metric:False,Visible:False,Sort:None,Position:24|Column#58=Name:Article#,Fixed:False,Metric:False,Visible:False,Sort:None,Position:16|Column#59=Name:Sense,Fixed:False,Metric:False,Visible:False,Sort:None,Position:49|Column#60=Name:Tolerance,Fixed:False,Metric:False,Visible:False,Sort:None,Position:58|Column#61=Name:Manufacturer Part Number,Fixed:False,Metric:False,Visible:False,Sort:None,Position:34
@@ -70,6 +74,7 @@ OutputEnabled3_OutputMedium1=0
 OutputEnabled3_OutputMedium2=0
 OutputEnabled3_OutputMedium3=0
 OutputEnabled3_OutputMedium4=0
+OutputEnabled3_OutputMedium5=0
 OutputDefault3=0
 Configuration3_Name1=OutputConfigurationParameter1
 Configuration3_Item1=AddToAllLayerClasses.Set= |AddToAllPlots.Set=SerializeLayerHash.Version~2,ClassName~TLayerToBoolean|CentrePlots=False|DrillDrawingSymbol=GraphicsSymbol|DrillDrawingSymbolSize=200000|EmbeddedApertures=True|FilmBorderSize=10000000|FilmXSize=200000000|FilmYSize=160000000|FlashAllFills=False|FlashPadShapes=True|G54OnApertureChange=False|GenerateDRCRulesFile=True|GenerateDRCRulesFile=True|GenerateReliefShapes=True|GerberUnit=Imperial|GerberUnit=Imperial|IncludeUnconnectedMidLayerPads=False|LayerClassesMirror.Set= |LayerClassesPlot.Set= |LeadingAndTrailingZeroesMode=SuppressLeadingZeroes|MaxApertureSize=2500000|MinusApertureTolerance=50|MinusApertureTolerance=50|Mirror.Set=SerializeLayerHash.Version~2,ClassName~TLayerToBoolean|MirrorDrillDrawingPlots=False|MirrorDrillGuidePlots=False|NoRegularPolygons=False|NumberOfDecimals=5|NumberOfDecimals=5|OptimizeChangeLocationCommands=True|OptimizeChangeLocationCommands=True|OriginPosition=Relative|Panelize=False|Plot.Set=SerializeLayerHash.Version~2,ClassName~TLayerToBoolean,16973830~1,16973832~1,16973834~1,16777217~1,16842753~1,16777218~1,16842754~1,16777219~1,16842757~1,16777220~1,16777222~1,16842755~1,16777223~1,16842758~1,16777221~1,16842756~1,16842751~1,16973835~1,16973833~1,16973831~1,16908289~1,16908290~1|PlotPositivePlaneLayers=False|PlotUsedDrillDrawingLayerPairs=True|PlotUsedDrillGuideLayerPairs=True|PlusApertureTolerance=50|PlusApertureTolerance=50|Record=GerberView|SoftwareArcs=False|Sorted=False|Sorted=False
@@ -83,6 +88,7 @@ OutputEnabled4_OutputMedium1=0
 OutputEnabled4_OutputMedium2=0
 OutputEnabled4_OutputMedium3=0
 OutputEnabled4_OutputMedium4=0
+OutputEnabled4_OutputMedium5=0
 OutputDefault4=0
 Configuration4_Name1=OutputConfigurationParameter1
 Configuration4_Item1=BoardEdgeRoutToolDia=2000000|GenerateBoardEdgeRout=False|GenerateDrilledSlotsG85=False|GenerateEIADrillFile=False|GenerateSeparatePlatedNonPlatedFiles=False|NumberOfDecimals=4|NumberOfUnits=4|OptimizeChangeLocationCommands=True|OriginPosition=Relative|Record=DrillView|Units=Metric|ZeroesMode=SuppressTrailingZeroes
@@ -91,11 +97,12 @@ OutputName5=Bill of Materials
 OutputCategory5=Report
 OutputDocumentPath5=
 OutputVariantName5=
-OutputEnabled5=1
+OutputEnabled5=0
 OutputEnabled5_OutputMedium1=0
 OutputEnabled5_OutputMedium2=0
 OutputEnabled5_OutputMedium3=1
 OutputEnabled5_OutputMedium4=0
+OutputEnabled5_OutputMedium5=0
 OutputDefault5=0
 PageOptions5=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
 Configuration5_Name1=ColumnNameFormat
@@ -118,9 +125,38 @@ OutputEnabled6_OutputMedium1=0
 OutputEnabled6_OutputMedium2=0
 OutputEnabled6_OutputMedium3=0
 OutputEnabled6_OutputMedium4=0
+OutputEnabled6_OutputMedium5=0
 OutputDefault6=0
 Configuration6_Name1=OutputConfigurationParameter1
 Configuration6_Item1=Record=PickPlaceView|Units=Metric|GenerateCSVFormat=True|GenerateTextFormat=True|ShowUnits=False|Separator=.|ExcludeFilterParam=False|IncludeVariations=False|Filter= |FilterActive=False|Column#1=Name:Designator,Fixed:True,Metric:False,Visible:True,Sort:None,Position:0|Column#2=Name:Comment,Fixed:True,Metric:False,Visible:True,Sort:None,Position:1|Column#3=Name:Layer,Fixed:True,Metric:False,Visible:True,Sort:None,Position:2|Column#4=Name:Footprint,Fixed:True,Metric:False,Visible:True,Sort:None,Position:3|Column#5=Name:Footprint Description,Fixed:True,Metric:False,Visible:False,Sort:None,Position:4|Column#6=Name:Center-X,Fixed:True,Metric:True,Visible:True,Sort:None,Position:5|Column#7=Name:Center-Y,Fixed:True,Metric:True,Visible:True,Sort:None,Position:6|Column#8=Name:Rotation,Fixed:True,Metric:False,Visible:True,Sort:None,Position:7|Column#9=Name:Description,Fixed:True,Metric:False,Visible:True,Sort:None,Position:8|Column#10=Name:ComponentKind,Fixed:True,Metric:False,Visible:False,Sort:None,Position:9|Column#11=Name:Height,Fixed:True,Metric:True,Visible:False,Sort:None,Position:10|Column#12=Name:Ref-X,Fixed:True,Metric:True,Visible:False,Sort:None,Position:11|Column#13=Name:Ref-Y,Fixed:True,Metric:True,Visible:False,Sort:None,Position:12|Column#14=Name:Pad-X,Fixed:True,Metric:True,Visible:False,Sort:None,Position:13|Column#15=Name:Pad-Y,Fixed:True,Metric:True,Visible:False,Sort:None,Position:14|Column#16=Name:Variation,Fixed:True,Metric:False,Visible:False,Sort:None,Position:15|Column#17=Name:Table,Fixed:False,Metric:False,Visible:False,Sort:None,Position:56|Column#18=Name:ComponentHeight,Fixed:False,Metric:False,Visible:False,Sort:None,Position:23|Column#19=Name:Device,Fixed:False,Metric:False,Visible:False,Sort:None,Position:29|Column#20=Name:SMD,Fixed:False,Metric:False,Visible:False,Sort:None,Position:50|Column#21=Name:Manufacturer1 Part Number,Fixed:False,Metric:False,Visible:False,Sort:None,Position:37|Column#22=Name:ComponentLink2URL,Fixed:False,Metric:False,Visible:False,Sort:None,Position:27|Column#23=Name:Status,Fixed:False,Metric:False,Visible:False,Sort:None,Position:52|Column#24=Name:CreateDate,Fixed:False,Metric:False,Visible:False,Sort:None,Position:28|Column#25=Name:Manufacturer,Fixed:False,Metric:False,Visible:False,Sort:None,Position:33|Column#26=Name:Placement Order Modifier,Fixed:False,Metric:False,Visible:False,Sort:None,Position:45|Column#27=Name:HelpURL,Fixed:False,Metric:False,Visible:False,Sort:None,Position:31|Column#28=Name:Bonding,Fixed:False,Metric:False,Visible:False,Sort:None,Position:18|Column#29=Name:Voltage,Fixed:False,Metric:False,Visible:False,Sort:None,Position:60|Column#30=Name:Case,Fixed:False,Metric:False,Visible:False,Sort:None,Position:19|Column#31=Name:Socket,Fixed:False,Metric:False,Visible:False,Sort:None,Position:51|Column#32=Name:ClassName,Fixed:False,Metric:False,Visible:False,Sort:None,Position:20|Column#33=Name:Part Number,Fixed:False,Metric:False,Visible:False,Sort:None,Position:41|Column#34=Name:Component Type,Fixed:False,Metric:False,Visible:False,Sort:None,Position:22|Column#35=Name:Manufacturer1 ComponentHeight,Fixed:False,Metric:False,Visible:False,Sort:None,Position:35|Column#36=Name:Author,Fixed:False,Metric:False,Visible:False,Sort:None,Position:17|Column#37=Name:Mounted,Fixed:False,Metric:False,Visible:False,Sort:None,Position:38|Column#38=Name:Manufacturer1 Example,Fixed:False,Metric:False,Visible:False,Sort:None,Position:36|Column#39=Name:Placement Comment,Fixed:False,Metric:False,Visible:False,Sort:None,Position:43|Column#40=Name:Placement Order ID,Fixed:False,Metric:False,Visible:False,Sort:None,Position:44|Column#41=Name:Power,Fixed:False,Metric:False,Visible:False,Sort:None,Position:46|Column#42=Name:Supplier,Fixed:False,Metric:False,Visible:False,Sort:None,Position:54|Column#43=Name:ComponentLink2Description,Fixed:False,Metric:False,Visible:False,Sort:None,Position:26|Column#44=Name:Status Comment,Fixed:False,Metric:False,Visible:False,Sort:None,Position:53|Column#45=Name:PackageDescription,Fixed:False,Metric:False,Visible:False,Sort:None,Position:39|Column#46=Name:Family,Fixed:False,Metric:False,Visible:False,Sort:None,Position:30|Column#47=Name:ComponentLink1URL,Fixed:False,Metric:False,Visible:False,Sort:None,Position:25|Column#48=Name:Part Description,Fixed:False,Metric:False,Visible:False,Sort:None,Position:40|Column#49=Name:PressFit,Fixed:False,Metric:False,Visible:False,Sort:None,Position:47|Column#50=Name:Value,Fixed:False,Metric:False,Visible:False,Sort:None,Position:59|Column#51=Name:TC,Fixed:False,Metric:False,Visible:False,Sort:None,Position:57|Column#52=Name:LatestRevisionDate,Fixed:False,Metric:False,Visible:False,Sort:None,Position:32|Column#53=Name:Color,Fixed:False,Metric:False,Visible:False,Sort:None,Position:21|Column#54=Name:SupplierRef,Fixed:False,Metric:False,Visible:False,Sort:None,Position:55|Column#55=Name:Pin Count,Fixed:False,Metric:False,Visible:False,Sort:None,Position:42|Column#56=Name:Resistance,Fixed:False,Metric:False,Visible:False,Sort:None,Position:48|Column#57=Name:ComponentLink1Description,Fixed:False,Metric:False,Visible:False,Sort:None,Position:24|Column#58=Name:Article#,Fixed:False,Metric:False,Visible:False,Sort:None,Position:16|Column#59=Name:Sense,Fixed:False,Metric:False,Visible:False,Sort:None,Position:49|Column#60=Name:Tolerance,Fixed:False,Metric:False,Visible:False,Sort:None,Position:58|Column#61=Name:Manufacturer Part Number,Fixed:False,Metric:False,Visible:False,Sort:None,Position:34
+OutputType7=ODB
+OutputName7=ODB++ Files
+OutputCategory7=Fabrication
+OutputDocumentPath7=AFCZ.PcbDoc
+OutputVariantName7=
+OutputEnabled7=1
+OutputEnabled7_OutputMedium1=0
+OutputEnabled7_OutputMedium2=0
+OutputEnabled7_OutputMedium3=0
+OutputEnabled7_OutputMedium4=0
+OutputEnabled7_OutputMedium5=1
+OutputDefault7=0
+Configuration7_Name1=OutputConfigurationParameter1
+Configuration7_Item1=AddToAllLayerClasses.Set= |AddToAllPlots_=False|AddToAllPlots_=False|AddToAllPlots_=False|AddToAllPlots_=False|AddToAllPlots_=False|AddToAllPlots_=False|AddToAllPlots_=False|AddToAllPlots_=False|AddToAllPlots_=False|AddToAllPlots_=False|AddToAllPlots_=False|AddToAllPlots_=False|AddToAllPlots_=False|AddToAllPlots_=False|AddToAllPlots_=False|AddToAllPlots_=False|Compression_None=True|Compression_tar_tgz=True|Compression_zip=True|ExportPositivePlaneLayers=False|GenerateDRCRulesFile=False|IncludeUnconnectedMidLayerPads=False|LayerClassesPlot.Set= |MergeNetTieNets=False|ObjsInsideBoardOutlineOnly=False|ODBProfileLayer=-1000|ODBProfileLayerV7=-1|PlotBottomLayerPlot=False|PlotBottomOverlayPlot=True|PlotBottomPastePlot=True|PlotBottomSolderPlot=True|PlotInternalPlane10Plot=False|PlotInternalPlane11Plot=False|PlotInternalPlane12Plot=False|PlotInternalPlane13Plot=False|PlotInternalPlane14Plot=False|PlotInternalPlane15Plot=False|PlotInternalPlane16Plot=False|PlotInternalPlane1Plot=False|PlotInternalPlane2Plot=False|PlotInternalPlane3Plot=False|PlotInternalPlane4Plot=False|PlotInternalPlane5Plot=False|PlotInternalPlane6Plot=False|PlotInternalPlane7Plot=False|PlotInternalPlane8Plot=False|PlotInternalPlane9Plot=False|PlotKeepOutLayerPlot=True|PlotMechanical10Plot=False|PlotMechanical11Plot=False|PlotMechanical12Plot=False|PlotMechanical13Plot=False|PlotMechanical14Plot=False|PlotMechanical15Plot=False|PlotMechanical16Plot=False|PlotMechanical1Plot=False|PlotMechanical2Plot=False|PlotMechanical3Plot=False|PlotMechanical4Plot=False|PlotMechanical5Plot=False|PlotMechanical6Plot=False|PlotMechanical7Plot=False|PlotMechanical8Plot=False|PlotMechanical9Plot=False|PlotMidLayer10Plot=False|PlotMidLayer11Plot=False|PlotMidLayer12Plot=False|PlotMidLayer13Plot=False|PlotMidLayer14Plot=False|PlotMidLayer15Plot=False|PlotMidLayer16Plot=False|PlotMidLayer17Plot=False|PlotMidLayer18Plot=False|PlotMidLayer19Plot=False|PlotMidLayer1Plot=False|PlotMidLayer20Plot=False|PlotMidLayer21Plot=False|PlotMidLayer22Plot=False|PlotMidLayer23Plot=False|PlotMidLayer24Plot=False|PlotMidLayer25Plot=False|PlotMidLayer26Plot=False|PlotMidLayer27Plot=False|PlotMidLayer28Plot=False|PlotMidLayer29Plot=False|PlotMidLayer2Plot=False|PlotMidLayer30Plot=False|PlotMidLayer3Plot=False|PlotMidLayer4Plot=False|PlotMidLayer5Plot=False|PlotMidLayer6Plot=False|PlotMidLayer7Plot=False|PlotMidLayer8Plot=False|PlotMidLayer9Plot=False|PlotTopLayerPlot=False|PlotTopOverlayPlot=True|PlotTopPastePlot=True|PlotTopSolderPlot=True|Record=ODBView|Units=Imperial
+OutputType8=HyperLynx
+OutputName8=HyperLynx (AutoPCB)
+OutputCategory8=Export
+OutputDocumentPath8=AFCZ.PcbDoc
+OutputVariantName8=
+OutputEnabled8=1
+OutputEnabled8_OutputMedium1=0
+OutputEnabled8_OutputMedium2=0
+OutputEnabled8_OutputMedium3=0
+OutputEnabled8_OutputMedium4=0
+OutputEnabled8_OutputMedium5=2
+OutputDefault8=0
+Configuration8_Name1=OutputConfigurationParameter1
+Configuration8_Item1=Format=HyperLynx File (*.HYP)|Record=UniExporterView
 
 [PublishSettings]
 OutputFilePath2=C:\Users\PS\Documents\CTI\AFCZ\GITHUB_repo\AFCZ\Project Outputs for AFCZ\PDF\DIOT_System_Board.PDF
@@ -200,6 +236,19 @@ FFmpegPixelFormat4=0
 FFmpegQuality4=80
 WmvVideoCodecName4=Windows Media Video V7
 WmvQuality4=80
+OutputFilePath5=C:\Users\PS\Documents\CTI\AFCZ\CTI_repo\AFCZ_hw\HL\
+ReleaseManaged5=0
+OutputBasePath5=HL\
+OutputPathMedia5=
+OutputPathMediaValue5=
+OutputPathOutputer5=[Output Type]
+OutputPathOutputerPrefix5=
+OutputPathOutputerValue5=
+OutputFileName5=
+OutputFileNameMulti5=
+UseOutputNameForMulti5=1
+OutputFileNameSpecial5=
+OpenOutput5=1
 
 [GeneratedFilesSettings]
 RelativeOutputPath2=C:\Users\PS\Documents\CTI\AFCZ\GITHUB_repo\AFCZ\Project Outputs for AFCZ\PDF\DIOT_System_Board.PDF
@@ -216,4 +265,14 @@ OpenIPCOutput3=0
 EnableReload3=0
 RelativeOutputPath4=
 OpenOutputs4=1
+RelativeOutputPath5=C:\Users\PS\Documents\CTI\AFCZ\CTI_repo\AFCZ_hw\HL\
+OpenOutputs5=1
+AddToProject5=1
+TimestampFolder5=0
+UseOutputName5=0
+OpenODBOutput5=0
+OpenGerberOutput5=0
+OpenNCDrillOutput5=0
+OpenIPCOutput5=0
+EnableReload5=0
 
