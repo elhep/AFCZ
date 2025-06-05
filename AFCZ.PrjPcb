@@ -950,6 +950,23 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=MPLFRVYH
 
+[Document54]
+DocumentPath=Si5341_CLK.Harness
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
 [ProjectVariant1]
 UniqueID=6A6FDC47-A0F5-417B-8E3A-0B21F2FEDCFF
 Description=Default
@@ -960,7 +977,7 @@ Variation1=Designator=R354|UniqueId=\FLNQAUOE\DIBPSFWH|Kind=1|AlternatePart=
 Variation2=Designator=R497|UniqueId=\VLFAKTVI\CLUHWVBU|Kind=1|AlternatePart= 
 Variation3=Designator=R353|UniqueId=\FLNQAUOE\GATQIBVM|Kind=1|AlternatePart= 
 Variation4=Designator=R526|UniqueId=\VLFAKTVI\TNDSNVPN|Kind=1|AlternatePart= 
-Variation5=Designator=R641|UniqueId=\YXJRNMRZ\RRHPCRKK\FPTHWKXR|Kind=1|AlternatePart= 
+Variation5=Designator=R641|UniqueId=\YXJRNMRZ\RRHPCRKK\FPTHWKXR|Kind=0|AlternatePart= 
 Variation6=Designator=R83|UniqueId=\XMSSCEEV\GHLSXEWO|Kind=1|AlternatePart= 
 Variation7=Designator=R89|UniqueId=\XMSSCEEV\AGVRNNXR|Kind=1|AlternatePart= 
 Variation8=Designator=R90|UniqueId=\XMSSCEEV\DNPLJHMN|Kind=1|AlternatePart= 
@@ -1019,7 +1036,7 @@ UniqueID=14590C9E-8123-4E72-AC0F-18AF05CEA2ED
 Description=FMC1/RTM
 AllowFabrication=1
 ParameterCount=0
-VariationCount=178
+VariationCount=194
 Variation1=Designator=C2|UniqueId=\WWXNDPVX\AZRBOMGI|Kind=1|AlternatePart= 
 Variation2=Designator=C985|UniqueId=\MXWBLSCM\EGRNPDYW\PEDTNFNS|Kind=1|AlternatePart= 
 Variation3=Designator=C986|UniqueId=\MXWBLSCM\EGRNPDYW\UCWXFEEV|Kind=1|AlternatePart= 
@@ -1196,16 +1213,156 @@ Variation173=Designator=R607|UniqueId=\YXJRNMRZ\KSPXXJER\TAFGUZWP|Kind=1|Alterna
 Variation174=Designator=R616|UniqueId=\YXJRNMRZ\CKRGKFSQ\QWCMPETJ|Kind=1|AlternatePart= 
 Variation175=Designator=R516|UniqueId=\DCRWQNJK\ZSFNXNTN\ALOFFCUB|Kind=1|AlternatePart= 
 Variation176=Designator=R517|UniqueId=\DCRWQNJK\ZSFNXNTN\NDDNTBHU|Kind=1|AlternatePart= 
-Variation177=Designator=C889|UniqueId=\DCRWQNJK\PJWSAGPN\MSPTYHZB|Kind=1|AlternatePart= 
+Variation177=Designator=C889|UniqueId=\DCRWQNJK\PJWSAGPN\MSPTYHZB|Kind=0|AlternatePart= 
 Variation178=Designator=R680|UniqueId=\DCRWQNJK\PJWSAGPN\DWKJLKHA|Kind=1|AlternatePart= 
-ParamVariationCount=0
+Variation179=Designator=R685|UniqueId=\YXJRNMRZ\RRHPCRKK\WXQNTKIF|Kind=1|AlternatePart= 
+Variation180=Designator=R684|UniqueId=\YXJRNMRZ\RRHPCRKK\MNDXIOHI|Kind=1|AlternatePart= 
+Variation181=Designator=R686|UniqueId=\YXJRNMRZ\RRHPCRKK\FJTEGNUF|Kind=1|AlternatePart= 
+Variation182=Designator=R683|UniqueId=\YXJRNMRZ\RRHPCRKK\IIPCEHFB|Kind=1|AlternatePart= 
+Variation183=Designator=R679|UniqueId=\YXJRNMRZ\RRHPCRKK\YWJLSAFQ|Kind=1|AlternatePart= 
+Variation184=Designator=R678|UniqueId=\YXJRNMRZ\KURSMZLE|Kind=1|AlternatePart= 
+Variation185=Designator=R681|UniqueId=\YXJRNMRZ\OPERVIHJ|Kind=2|AlternatePart==Value|AltLibLink_LibIdentifierKind=Library Full Path|AltLibLink_LibraryIdentifier=D:\DESIGNS\Libs\CernLib\Resistors.DbLib/Resistors SMD|AltLibLink_SymbolReference= |AltLibLink_DesignItemID=R0402_0R_JUMPER|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=Resistors.DbLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName=Resistors SMD|AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=RESC1005X40N|AltLibLink_IsSameFootprint=True
+ParamVariation1=ParameterName=Comment|VariantValue==Value
+ParamDesignator1=R681
+ParamVariation2=ParameterName=Case|VariantValue=0402
+ParamDesignator2=R681
+ParamVariation3=ParameterName=Component Kind|VariantValue=Standard
+ParamDesignator3=R681
+ParamVariation4=ParameterName=Component Type|VariantValue=Standard
+ParamDesignator4=R681
+ParamVariation5=ParameterName=CreateDate|VariantValue=03.12.2007
+ParamDesignator5=R681
+ParamVariation6=ParameterName=Database Table Name|VariantValue=Resistors SMD
+ParamDesignator6=R681
+ParamVariation7=ParameterName=Description|VariantValue=Resistor
+ParamDesignator7=R681
+ParamVariation8=ParameterName=Footprint|VariantValue=RESC1005X40N
+ParamDesignator8=R681
+ParamVariation9=ParameterName=HelpURL|VariantValue=\\cern.ch\dfs\Applications\Altium\Datasheets\R0402_Phycomp_RC0402.pdf
+ParamDesignator9=R681
+ParamVariation10=ParameterName=Ibis Model|VariantValue= 
+ParamDesignator10=R681
+ParamVariation11=ParameterName=LatestRevisionDate|VariantValue=17.10.2012
+ParamDesignator11=R681
+ParamVariation12=ParameterName=Library Reference|VariantValue=R0402_0R_JUMPER
+ParamDesignator12=R681
+ParamVariation13=ParameterName=Manufacturer|VariantValue=GENERIC
+ParamDesignator13=R681
+ParamVariation14=ParameterName=Manufacturer1 ComponentHeight|VariantValue=0.4mm
+ParamDesignator14=R681
+ParamVariation15=ParameterName=Manufacturer1 Example|VariantValue=YAGEO PHYCOMP
+ParamDesignator15=R681
+ParamVariation16=ParameterName=Manufacturer1 Part Number|VariantValue=232270591001L
+ParamDesignator16=R681
+ParamVariation17=ParameterName=Manufacturer Part Number|VariantValue=R0402_0R_JUMPER
+ParamDesignator17=R681
+ParamVariation18=ParameterName=Mounted|VariantValue=Yes
+ParamDesignator18=R681
+ParamVariation19=ParameterName=Part Description|VariantValue=1A (0.05R Max DC Resistance) Zero Ohm Jumper
+ParamDesignator19=R681
+ParamVariation20=ParameterName=Part Number|VariantValue=R0402_0R_JUMPER
+ParamDesignator20=R681
+ParamVariation21=ParameterName=PCB3D|VariantValue= 
+ParamDesignator21=R681
+ParamVariation22=ParameterName=Pin Count|VariantValue=2
+ParamDesignator22=R681
+ParamVariation23=ParameterName=Pin Info|VariantValue= 
+ParamDesignator23=R681
+ParamVariation24=ParameterName=PressFit|VariantValue=No
+ParamDesignator24=R681
+ParamVariation25=ParameterName=Sense|VariantValue=No
+ParamDesignator25=R681
+ParamVariation26=ParameterName=Signal Integrity|VariantValue= 
+ParamDesignator26=R681
+ParamVariation27=ParameterName=Simulation|VariantValue= 
+ParamDesignator27=R681
+ParamVariation28=ParameterName=SMD|VariantValue=Yes
+ParamDesignator28=R681
+ParamVariation29=ParameterName=Socket|VariantValue=No
+ParamDesignator29=R681
+ParamVariation30=ParameterName=Status|VariantValue=Not Recommended
+ParamDesignator30=R681
+ParamVariation31=ParameterName=Value|VariantValue=0
+ParamDesignator31=R681
+Variation186=Designator=R682|UniqueId=\YXJRNMRZ\UDEHNKGF|Kind=2|AlternatePart==Value|AltLibLink_LibIdentifierKind=Library Full Path|AltLibLink_LibraryIdentifier=D:\DESIGNS\Libs\CernLib\Resistors.DbLib/Resistors SMD|AltLibLink_SymbolReference= |AltLibLink_DesignItemID=R0402_0R_JUMPER|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=Resistors.DbLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName=Resistors SMD|AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=RESC1005X40N|AltLibLink_IsSameFootprint=True
+ParamVariation32=ParameterName=Comment|VariantValue==Value
+ParamDesignator32=R682
+ParamVariation33=ParameterName=Case|VariantValue=0402
+ParamDesignator33=R682
+ParamVariation34=ParameterName=Component Kind|VariantValue=Standard
+ParamDesignator34=R682
+ParamVariation35=ParameterName=Component Type|VariantValue=Standard
+ParamDesignator35=R682
+ParamVariation36=ParameterName=CreateDate|VariantValue=03.12.2007
+ParamDesignator36=R682
+ParamVariation37=ParameterName=Database Table Name|VariantValue=Resistors SMD
+ParamDesignator37=R682
+ParamVariation38=ParameterName=Description|VariantValue=Resistor
+ParamDesignator38=R682
+ParamVariation39=ParameterName=Footprint|VariantValue=RESC1005X40N
+ParamDesignator39=R682
+ParamVariation40=ParameterName=HelpURL|VariantValue=\\cern.ch\dfs\Applications\Altium\Datasheets\R0402_Phycomp_RC0402.pdf
+ParamDesignator40=R682
+ParamVariation41=ParameterName=Ibis Model|VariantValue= 
+ParamDesignator41=R682
+ParamVariation42=ParameterName=LatestRevisionDate|VariantValue=17.10.2012
+ParamDesignator42=R682
+ParamVariation43=ParameterName=Library Reference|VariantValue=R0402_0R_JUMPER
+ParamDesignator43=R682
+ParamVariation44=ParameterName=Manufacturer|VariantValue=GENERIC
+ParamDesignator44=R682
+ParamVariation45=ParameterName=Manufacturer1 ComponentHeight|VariantValue=0.4mm
+ParamDesignator45=R682
+ParamVariation46=ParameterName=Manufacturer1 Example|VariantValue=YAGEO PHYCOMP
+ParamDesignator46=R682
+ParamVariation47=ParameterName=Manufacturer1 Part Number|VariantValue=232270591001L
+ParamDesignator47=R682
+ParamVariation48=ParameterName=Manufacturer Part Number|VariantValue=R0402_0R_JUMPER
+ParamDesignator48=R682
+ParamVariation49=ParameterName=Mounted|VariantValue=Yes
+ParamDesignator49=R682
+ParamVariation50=ParameterName=Part Description|VariantValue=1A (0.05R Max DC Resistance) Zero Ohm Jumper
+ParamDesignator50=R682
+ParamVariation51=ParameterName=Part Number|VariantValue=R0402_0R_JUMPER
+ParamDesignator51=R682
+ParamVariation52=ParameterName=PCB3D|VariantValue= 
+ParamDesignator52=R682
+ParamVariation53=ParameterName=Pin Count|VariantValue=2
+ParamDesignator53=R682
+ParamVariation54=ParameterName=Pin Info|VariantValue= 
+ParamDesignator54=R682
+ParamVariation55=ParameterName=PressFit|VariantValue=No
+ParamDesignator55=R682
+ParamVariation56=ParameterName=Sense|VariantValue=No
+ParamDesignator56=R682
+ParamVariation57=ParameterName=Signal Integrity|VariantValue= 
+ParamDesignator57=R682
+ParamVariation58=ParameterName=Simulation|VariantValue= 
+ParamDesignator58=R682
+ParamVariation59=ParameterName=SMD|VariantValue=Yes
+ParamDesignator59=R682
+ParamVariation60=ParameterName=Socket|VariantValue=No
+ParamDesignator60=R682
+ParamVariation61=ParameterName=Status|VariantValue=Not Recommended
+ParamDesignator61=R682
+ParamVariation62=ParameterName=Value|VariantValue=0
+ParamDesignator62=R682
+Variation187=Designator=R689|UniqueId=\DCRWQNJK\MYPCYNFE\ILMZSXSK|Kind=1|AlternatePart= 
+Variation188=Designator=R690|UniqueId=\DCRWQNJK\MYPCYNFE\HFQPUIZO|Kind=1|AlternatePart= 
+Variation189=Designator=R691|UniqueId=\DCRWQNJK\MYPCYNFE\MTLXTSUZ|Kind=1|AlternatePart= 
+Variation190=Designator=R692|UniqueId=\DCRWQNJK\MYPCYNFE\YSTSFSFY|Kind=1|AlternatePart= 
+Variation191=Designator=R693|UniqueId=\DCRWQNJK\PJWSAGPN\LGOFERLV|Kind=1|AlternatePart= 
+Variation192=Designator=R694|UniqueId=\DCRWQNJK\PJWSAGPN\RJUZADBM|Kind=1|AlternatePart= 
+Variation193=Designator=R695|UniqueId=\DCRWQNJK\PJWSAGPN\MNUWJMXC|Kind=1|AlternatePart= 
+Variation194=Designator=R696|UniqueId=\DCRWQNJK\PJWSAGPN\XACOECPL|Kind=1|AlternatePart= 
+ParamVariationCount=62
 
 [ProjectVariant3]
 UniqueID=E2AECF21-59F6-4D36-BEAC-F3A9C8C9FA21
 Description=RTM
 AllowFabrication=1
 ParameterCount=0
-VariationCount=178
+VariationCount=191
 Variation1=Designator=C2|UniqueId=\WWXNDPVX\AZRBOMGI|Kind=1|AlternatePart= 
 Variation2=Designator=C985|UniqueId=\MXWBLSCM\EGRNPDYW\PEDTNFNS|Kind=1|AlternatePart= 
 Variation3=Designator=C986|UniqueId=\MXWBLSCM\EGRNPDYW\UCWXFEEV|Kind=1|AlternatePart= 
@@ -1382,8 +1539,21 @@ Variation173=Designator=R616|UniqueId=\YXJRNMRZ\CKRGKFSQ\QWCMPETJ|Kind=1|Alterna
 Variation174=Designator=R607|UniqueId=\YXJRNMRZ\KSPXXJER\TAFGUZWP|Kind=1|AlternatePart= 
 Variation175=Designator=R517|UniqueId=\DCRWQNJK\ZSFNXNTN\NDDNTBHU|Kind=1|AlternatePart= 
 Variation176=Designator=R516|UniqueId=\DCRWQNJK\ZSFNXNTN\ALOFFCUB|Kind=1|AlternatePart= 
-Variation177=Designator=C889|UniqueId=\DCRWQNJK\PJWSAGPN\MSPTYHZB|Kind=1|AlternatePart= 
+Variation177=Designator=C889|UniqueId=\DCRWQNJK\PJWSAGPN\MSPTYHZB|Kind=0|AlternatePart= 
 Variation178=Designator=R680|UniqueId=\DCRWQNJK\PJWSAGPN\DWKJLKHA|Kind=1|AlternatePart= 
+Variation179=Designator=R685|UniqueId=\YXJRNMRZ\RRHPCRKK\WXQNTKIF|Kind=1|AlternatePart= 
+Variation180=Designator=R684|UniqueId=\YXJRNMRZ\RRHPCRKK\MNDXIOHI|Kind=1|AlternatePart= 
+Variation181=Designator=R686|UniqueId=\YXJRNMRZ\RRHPCRKK\FJTEGNUF|Kind=1|AlternatePart= 
+Variation182=Designator=R683|UniqueId=\YXJRNMRZ\RRHPCRKK\IIPCEHFB|Kind=1|AlternatePart= 
+Variation183=Designator=R679|UniqueId=\YXJRNMRZ\RRHPCRKK\YWJLSAFQ|Kind=1|AlternatePart= 
+Variation184=Designator=R689|UniqueId=\DCRWQNJK\MYPCYNFE\ILMZSXSK|Kind=1|AlternatePart= 
+Variation185=Designator=R690|UniqueId=\DCRWQNJK\MYPCYNFE\HFQPUIZO|Kind=1|AlternatePart= 
+Variation186=Designator=R691|UniqueId=\DCRWQNJK\MYPCYNFE\MTLXTSUZ|Kind=1|AlternatePart= 
+Variation187=Designator=R692|UniqueId=\DCRWQNJK\MYPCYNFE\YSTSFSFY|Kind=1|AlternatePart= 
+Variation188=Designator=R696|UniqueId=\DCRWQNJK\PJWSAGPN\XACOECPL|Kind=1|AlternatePart= 
+Variation189=Designator=R695|UniqueId=\DCRWQNJK\PJWSAGPN\MNUWJMXC|Kind=1|AlternatePart= 
+Variation190=Designator=R694|UniqueId=\DCRWQNJK\PJWSAGPN\RJUZADBM|Kind=1|AlternatePart= 
+Variation191=Designator=R693|UniqueId=\DCRWQNJK\PJWSAGPN\LGOFERLV|Kind=1|AlternatePart= 
 ParamVariationCount=0
 
 [ProjectVariant4]
@@ -1391,7 +1561,7 @@ UniqueID=02F00BA7-C5F4-4C98-A059-82F3FF912472
 Description=FMC
 AllowFabrication=1
 ParameterCount=0
-VariationCount=212
+VariationCount=225
 Variation1=Designator=C2|UniqueId=\WWXNDPVX\AZRBOMGI|Kind=1|AlternatePart= 
 Variation2=Designator=C985|UniqueId=\MXWBLSCM\EGRNPDYW\PEDTNFNS|Kind=1|AlternatePart= 
 Variation3=Designator=C986|UniqueId=\MXWBLSCM\EGRNPDYW\UCWXFEEV|Kind=1|AlternatePart= 
@@ -1601,9 +1771,22 @@ Variation206=Designator=R607|UniqueId=\YXJRNMRZ\KSPXXJER\TAFGUZWP|Kind=1|Alterna
 Variation207=Designator=R616|UniqueId=\YXJRNMRZ\CKRGKFSQ\QWCMPETJ|Kind=1|AlternatePart= 
 Variation208=Designator=R516|UniqueId=\DCRWQNJK\ZSFNXNTN\ALOFFCUB|Kind=1|AlternatePart= 
 Variation209=Designator=R517|UniqueId=\DCRWQNJK\ZSFNXNTN\NDDNTBHU|Kind=1|AlternatePart= 
-Variation210=Designator=C889|UniqueId=\DCRWQNJK\PJWSAGPN\MSPTYHZB|Kind=1|AlternatePart= 
+Variation210=Designator=C889|UniqueId=\DCRWQNJK\PJWSAGPN\MSPTYHZB|Kind=0|AlternatePart= 
 Variation211=Designator=IC87|UniqueId=\DCRWQNJK\PJWSAGPN\HEKCGSEE|Kind=0|AlternatePart= 
 Variation212=Designator=R680|UniqueId=\DCRWQNJK\PJWSAGPN\DWKJLKHA|Kind=1|AlternatePart= 
+Variation213=Designator=R685|UniqueId=\YXJRNMRZ\RRHPCRKK\WXQNTKIF|Kind=1|AlternatePart= 
+Variation214=Designator=R684|UniqueId=\YXJRNMRZ\RRHPCRKK\MNDXIOHI|Kind=1|AlternatePart= 
+Variation215=Designator=R686|UniqueId=\YXJRNMRZ\RRHPCRKK\FJTEGNUF|Kind=1|AlternatePart= 
+Variation216=Designator=R683|UniqueId=\YXJRNMRZ\RRHPCRKK\IIPCEHFB|Kind=1|AlternatePart= 
+Variation217=Designator=R679|UniqueId=\YXJRNMRZ\RRHPCRKK\YWJLSAFQ|Kind=1|AlternatePart= 
+Variation218=Designator=R689|UniqueId=\DCRWQNJK\MYPCYNFE\ILMZSXSK|Kind=1|AlternatePart= 
+Variation219=Designator=R690|UniqueId=\DCRWQNJK\MYPCYNFE\HFQPUIZO|Kind=1|AlternatePart= 
+Variation220=Designator=R691|UniqueId=\DCRWQNJK\MYPCYNFE\MTLXTSUZ|Kind=1|AlternatePart= 
+Variation221=Designator=R692|UniqueId=\DCRWQNJK\MYPCYNFE\YSTSFSFY|Kind=1|AlternatePart= 
+Variation222=Designator=R693|UniqueId=\DCRWQNJK\PJWSAGPN\LGOFERLV|Kind=1|AlternatePart= 
+Variation223=Designator=R694|UniqueId=\DCRWQNJK\PJWSAGPN\RJUZADBM|Kind=1|AlternatePart= 
+Variation224=Designator=R695|UniqueId=\DCRWQNJK\PJWSAGPN\MNUWJMXC|Kind=1|AlternatePart= 
+Variation225=Designator=R696|UniqueId=\DCRWQNJK\PJWSAGPN\XACOECPL|Kind=1|AlternatePart= 
 ParamVariationCount=0
 
 [GeneratedDocument1]
@@ -1611,254 +1794,258 @@ DocumentPath=HL\ODB\AFCZ.REP
 DItemRevisionGUID=
 
 [GeneratedDocument2]
-DocumentPath=HL\ODB\odb\steps\pcb\layers\comp_+_bot\components
+DocumentPath=Prod\ExportSTEP\AFCZ_v2.1([No Variations]).step
 DItemRevisionGUID=
 
 [GeneratedDocument3]
-DocumentPath=HL\ODB\odb\steps\pcb\layers\comp_+_top\components
+DocumentPath=HL\ODB\odb\steps\pcb\layers\comp_+_bot\components
 DItemRevisionGUID=
 
 [GeneratedDocument4]
-DocumentPath=HL\ODB\odb\steps\pcb\eda\data
+DocumentPath=HL\ODB\odb\steps\pcb\layers\comp_+_top\components
 DItemRevisionGUID=
 
 [GeneratedDocument5]
-DocumentPath=Project Outputs for AFCZ\Design Rule Check - AFCZ.html
+DocumentPath=HL\ODB\odb\steps\pcb\eda\data
 DItemRevisionGUID=
 
 [GeneratedDocument6]
-DocumentPath=HL\ODB\odb\steps\pcb\layers\bottom_overlay\features
+DocumentPath=Project Outputs for AFCZ\Design Rule Check - AFCZ.html
 DItemRevisionGUID=
 
 [GeneratedDocument7]
-DocumentPath=HL\ODB\odb\steps\pcb\layers\bottom_paste\features
+DocumentPath=HL\ODB\odb\steps\pcb\layers\bottom_overlay\features
 DItemRevisionGUID=
 
 [GeneratedDocument8]
-DocumentPath=HL\ODB\odb\steps\pcb\layers\bottom_solder\features
+DocumentPath=HL\ODB\odb\steps\pcb\layers\bottom_paste\features
 DItemRevisionGUID=
 
 [GeneratedDocument9]
-DocumentPath=HL\ODB\odb\steps\pcb\layers\comp_+_bot\features
+DocumentPath=HL\ODB\odb\steps\pcb\layers\bottom_solder\features
 DItemRevisionGUID=
 
 [GeneratedDocument10]
-DocumentPath=HL\ODB\odb\steps\pcb\layers\comp_+_top\features
+DocumentPath=HL\ODB\odb\steps\pcb\layers\comp_+_bot\features
 DItemRevisionGUID=
 
 [GeneratedDocument11]
-DocumentPath=HL\ODB\odb\steps\pcb\layers\dielectric2\features
+DocumentPath=HL\ODB\odb\steps\pcb\layers\comp_+_top\features
 DItemRevisionGUID=
 
 [GeneratedDocument12]
-DocumentPath=HL\ODB\odb\steps\pcb\layers\dielectric3\features
+DocumentPath=HL\ODB\odb\steps\pcb\layers\dielectric2\features
 DItemRevisionGUID=
 
 [GeneratedDocument13]
-DocumentPath=HL\ODB\odb\steps\pcb\layers\dielectric4\features
+DocumentPath=HL\ODB\odb\steps\pcb\layers\dielectric3\features
 DItemRevisionGUID=
 
 [GeneratedDocument14]
-DocumentPath=HL\ODB\odb\steps\pcb\layers\dielectric5\features
+DocumentPath=HL\ODB\odb\steps\pcb\layers\dielectric4\features
 DItemRevisionGUID=
 
 [GeneratedDocument15]
-DocumentPath=HL\ODB\odb\steps\pcb\layers\dielectric6\features
+DocumentPath=HL\ODB\odb\steps\pcb\layers\dielectric5\features
 DItemRevisionGUID=
 
 [GeneratedDocument16]
-DocumentPath=HL\ODB\odb\steps\pcb\layers\dielectric7\features
+DocumentPath=HL\ODB\odb\steps\pcb\layers\dielectric6\features
 DItemRevisionGUID=
 
 [GeneratedDocument17]
-DocumentPath=HL\ODB\odb\steps\pcb\layers\dielectric8\features
+DocumentPath=HL\ODB\odb\steps\pcb\layers\dielectric7\features
 DItemRevisionGUID=
 
 [GeneratedDocument18]
-DocumentPath=HL\ODB\odb\steps\pcb\layers\dielectric9\features
+DocumentPath=HL\ODB\odb\steps\pcb\layers\dielectric8\features
 DItemRevisionGUID=
 
 [GeneratedDocument19]
-DocumentPath=HL\ODB\odb\steps\pcb\layers\dielectric10\features
+DocumentPath=HL\ODB\odb\steps\pcb\layers\dielectric9\features
 DItemRevisionGUID=
 
 [GeneratedDocument20]
-DocumentPath=HL\ODB\odb\steps\pcb\layers\dielectric11\features
+DocumentPath=HL\ODB\odb\steps\pcb\layers\dielectric10\features
 DItemRevisionGUID=
 
 [GeneratedDocument21]
-DocumentPath=HL\ODB\odb\steps\pcb\layers\dielectric12\features
+DocumentPath=HL\ODB\odb\steps\pcb\layers\dielectric11\features
 DItemRevisionGUID=
 
 [GeneratedDocument22]
-DocumentPath=HL\ODB\odb\steps\pcb\layers\dielectric13\features
+DocumentPath=HL\ODB\odb\steps\pcb\layers\dielectric12\features
 DItemRevisionGUID=
 
 [GeneratedDocument23]
-DocumentPath=HL\ODB\odb\steps\pcb\layers\dielectric14\features
+DocumentPath=HL\ODB\odb\steps\pcb\layers\dielectric13\features
 DItemRevisionGUID=
 
 [GeneratedDocument24]
-DocumentPath=HL\ODB\odb\steps\pcb\layers\dielectric15\features
+DocumentPath=HL\ODB\odb\steps\pcb\layers\dielectric14\features
 DItemRevisionGUID=
 
 [GeneratedDocument25]
-DocumentPath=HL\ODB\odb\steps\pcb\layers\dielectric16\features
+DocumentPath=HL\ODB\odb\steps\pcb\layers\dielectric15\features
 DItemRevisionGUID=
 
 [GeneratedDocument26]
-DocumentPath=HL\ODB\odb\steps\pcb\layers\dielectric17\features
+DocumentPath=HL\ODB\odb\steps\pcb\layers\dielectric16\features
 DItemRevisionGUID=
 
 [GeneratedDocument27]
-DocumentPath=HL\ODB\odb\steps\pcb\layers\dielectric_1\features
+DocumentPath=HL\ODB\odb\steps\pcb\layers\dielectric17\features
 DItemRevisionGUID=
 
 [GeneratedDocument28]
-DocumentPath=HL\ODB\odb\steps\pcb\layers\drill_non-plated_bottom-top\features
+DocumentPath=HL\ODB\odb\steps\pcb\layers\dielectric_1\features
 DItemRevisionGUID=
 
 [GeneratedDocument29]
-DocumentPath=HL\ODB\odb\steps\pcb\layers\drill_plated_bottom-top\features
+DocumentPath=HL\ODB\odb\steps\pcb\layers\drill_non-plated_bottom-top\features
 DItemRevisionGUID=
 
 [GeneratedDocument30]
-DocumentPath=HL\ODB\odb\steps\pcb\layers\keep-out_layer\features
+DocumentPath=HL\ODB\odb\steps\pcb\layers\drill_plated_bottom-top\features
 DItemRevisionGUID=
 
 [GeneratedDocument31]
-DocumentPath=HL\ODB\odb\steps\pcb\layers\layer_1\features
+DocumentPath=HL\ODB\odb\steps\pcb\layers\keep-out_layer\features
 DItemRevisionGUID=
 
 [GeneratedDocument32]
-DocumentPath=HL\ODB\odb\steps\pcb\layers\layer_2\features
+DocumentPath=HL\ODB\odb\steps\pcb\layers\layer_1\features
 DItemRevisionGUID=
 
 [GeneratedDocument33]
-DocumentPath=HL\ODB\odb\steps\pcb\layers\layer_3\features
+DocumentPath=HL\ODB\odb\steps\pcb\layers\layer_2\features
 DItemRevisionGUID=
 
 [GeneratedDocument34]
-DocumentPath=HL\ODB\odb\steps\pcb\layers\layer_4\features
+DocumentPath=HL\ODB\odb\steps\pcb\layers\layer_3\features
 DItemRevisionGUID=
 
 [GeneratedDocument35]
-DocumentPath=HL\ODB\odb\steps\pcb\layers\layer_5\features
+DocumentPath=HL\ODB\odb\steps\pcb\layers\layer_4\features
 DItemRevisionGUID=
 
 [GeneratedDocument36]
-DocumentPath=HL\ODB\odb\steps\pcb\layers\layer_6\features
+DocumentPath=HL\ODB\odb\steps\pcb\layers\layer_5\features
 DItemRevisionGUID=
 
 [GeneratedDocument37]
-DocumentPath=HL\ODB\odb\steps\pcb\layers\layer_7\features
+DocumentPath=HL\ODB\odb\steps\pcb\layers\layer_6\features
 DItemRevisionGUID=
 
 [GeneratedDocument38]
-DocumentPath=HL\ODB\odb\steps\pcb\layers\layer_8\features
+DocumentPath=HL\ODB\odb\steps\pcb\layers\layer_7\features
 DItemRevisionGUID=
 
 [GeneratedDocument39]
-DocumentPath=HL\ODB\odb\steps\pcb\layers\layer_9\features
+DocumentPath=HL\ODB\odb\steps\pcb\layers\layer_8\features
 DItemRevisionGUID=
 
 [GeneratedDocument40]
-DocumentPath=HL\ODB\odb\steps\pcb\layers\layer_10\features
+DocumentPath=HL\ODB\odb\steps\pcb\layers\layer_9\features
 DItemRevisionGUID=
 
 [GeneratedDocument41]
-DocumentPath=HL\ODB\odb\steps\pcb\layers\layer_11\features
+DocumentPath=HL\ODB\odb\steps\pcb\layers\layer_10\features
 DItemRevisionGUID=
 
 [GeneratedDocument42]
-DocumentPath=HL\ODB\odb\steps\pcb\layers\layer_12\features
+DocumentPath=HL\ODB\odb\steps\pcb\layers\layer_11\features
 DItemRevisionGUID=
 
 [GeneratedDocument43]
-DocumentPath=HL\ODB\odb\steps\pcb\layers\layer_13\features
+DocumentPath=HL\ODB\odb\steps\pcb\layers\layer_12\features
 DItemRevisionGUID=
 
 [GeneratedDocument44]
-DocumentPath=HL\ODB\odb\steps\pcb\layers\layer_14\features
+DocumentPath=HL\ODB\odb\steps\pcb\layers\layer_13\features
 DItemRevisionGUID=
 
 [GeneratedDocument45]
-DocumentPath=HL\ODB\odb\steps\pcb\layers\layer_15\features
+DocumentPath=HL\ODB\odb\steps\pcb\layers\layer_14\features
 DItemRevisionGUID=
 
 [GeneratedDocument46]
-DocumentPath=HL\ODB\odb\steps\pcb\layers\layer_16\features
+DocumentPath=HL\ODB\odb\steps\pcb\layers\layer_15\features
 DItemRevisionGUID=
 
 [GeneratedDocument47]
-DocumentPath=HL\ODB\odb\steps\pcb\layers\layer_17\features
+DocumentPath=HL\ODB\odb\steps\pcb\layers\layer_16\features
 DItemRevisionGUID=
 
 [GeneratedDocument48]
-DocumentPath=HL\ODB\odb\steps\pcb\layers\layer_18\features
+DocumentPath=HL\ODB\odb\steps\pcb\layers\layer_17\features
 DItemRevisionGUID=
 
 [GeneratedDocument49]
-DocumentPath=HL\ODB\odb\steps\pcb\layers\rout\features
+DocumentPath=HL\ODB\odb\steps\pcb\layers\layer_18\features
 DItemRevisionGUID=
 
 [GeneratedDocument50]
-DocumentPath=HL\ODB\odb\steps\pcb\layers\top_overlay\features
+DocumentPath=HL\ODB\odb\steps\pcb\layers\rout\features
 DItemRevisionGUID=
 
 [GeneratedDocument51]
-DocumentPath=HL\ODB\odb\steps\pcb\layers\top_paste\features
+DocumentPath=HL\ODB\odb\steps\pcb\layers\top_overlay\features
 DItemRevisionGUID=
 
 [GeneratedDocument52]
-DocumentPath=HL\ODB\odb\steps\pcb\layers\top_solder\features
+DocumentPath=HL\ODB\odb\steps\pcb\layers\top_paste\features
 DItemRevisionGUID=
 
 [GeneratedDocument53]
-DocumentPath=HL\ODB\odb\symbols\oblong_th456.6928x102.3621x45x4x7.874\features
+DocumentPath=HL\ODB\odb\steps\pcb\layers\top_solder\features
 DItemRevisionGUID=
 
 [GeneratedDocument54]
-DocumentPath=HL\ODB\odb\symbols\uds_oblong_th72.8346x64.9606x45x4x7.874_180\features
+DocumentPath=HL\ODB\odb\symbols\oblong_th456.6928x102.3621x45x4x7.874\features
 DItemRevisionGUID=
 
 [GeneratedDocument55]
-DocumentPath=HL\ODB\odb\symbols\uds_oblong_th98.4251x70.8661x45x4x7.874_180\features
+DocumentPath=HL\ODB\odb\symbols\uds_oblong_th72.8346x64.9606x45x4x7.874_180\features
 DItemRevisionGUID=
 
 [GeneratedDocument56]
-DocumentPath=HL\ODB\odb\symbols\uds_rect24.7792x8.1573_225\features
+DocumentPath=HL\ODB\odb\symbols\uds_oblong_th98.4251x70.8661x45x4x7.874_180\features
 DItemRevisionGUID=
 
 [GeneratedDocument57]
-DocumentPath=HL\ODB\odb\symbols\uds_rect897.6378x275.5906_180_offset0x19.685\features
+DocumentPath=HL\ODB\odb\symbols\uds_rect24.7792x8.1573_225\features
 DItemRevisionGUID=
 
 [GeneratedDocument58]
-DocumentPath=HL\ODB\odb\matrix\matrix
+DocumentPath=HL\ODB\odb\symbols\uds_rect897.6378x275.5906_180_offset0x19.685\features
 DItemRevisionGUID=
 
 [GeneratedDocument59]
-DocumentPath=HL\ODB\odb\steps\pcb\netlists\cadnet\netlist
+DocumentPath=HL\ODB\odb\matrix\matrix
 DItemRevisionGUID=
 
 [GeneratedDocument60]
-DocumentPath=HL\ODB\odb\steps\pcb\profile
+DocumentPath=HL\ODB\odb\steps\pcb\netlists\cadnet\netlist
 DItemRevisionGUID=
 
 [GeneratedDocument61]
-DocumentPath=HL\ODB\odb\steps\pcb\stephdr
+DocumentPath=HL\ODB\odb\steps\pcb\profile
 DItemRevisionGUID=
 
 [GeneratedDocument62]
-DocumentPath=HL\ODB\odb\steps\pcb\layers\drill_non-plated_bottom-top\tools
+DocumentPath=HL\ODB\odb\steps\pcb\stephdr
 DItemRevisionGUID=
 
 [GeneratedDocument63]
-DocumentPath=HL\ODB\odb\steps\pcb\layers\drill_plated_bottom-top\tools
+DocumentPath=HL\ODB\odb\steps\pcb\layers\drill_non-plated_bottom-top\tools
 DItemRevisionGUID=
 
 [GeneratedDocument64]
+DocumentPath=HL\ODB\odb\steps\pcb\layers\drill_plated_bottom-top\tools
+DItemRevisionGUID=
+
+[GeneratedDocument65]
 DocumentPath=HL\ODB\odb\steps\pcb\layers\rout\tools
 DItemRevisionGUID=
 
