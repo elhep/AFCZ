@@ -1036,7 +1036,7 @@ UniqueID=14590C9E-8123-4E72-AC0F-18AF05CEA2ED
 Description=FMC1/RTM
 AllowFabrication=1
 ParameterCount=0
-VariationCount=194
+VariationCount=202
 Variation1=Designator=C2|UniqueId=\WWXNDPVX\AZRBOMGI|Kind=1|AlternatePart= 
 Variation2=Designator=C985|UniqueId=\MXWBLSCM\EGRNPDYW\PEDTNFNS|Kind=1|AlternatePart= 
 Variation3=Designator=C986|UniqueId=\MXWBLSCM\EGRNPDYW\UCWXFEEV|Kind=1|AlternatePart= 
@@ -1205,8 +1205,8 @@ Variation165=Designator=R621|UniqueId=\YXJRNMRZ\KSPXXJER\MJUGUQJP|Kind=1|Alterna
 Variation166=Designator=IC36|UniqueId=\YXJRNMRZ\CKRGKFSQ\NJCOBIXH|Kind=1|AlternatePart= 
 Variation167=Designator=R632|UniqueId=\YXJRNMRZ\CKRGKFSQ\ENJIXSAQ|Kind=1|AlternatePart= 
 Variation168=Designator=C355|UniqueId=\YXJRNMRZ\CKRGKFSQ\VHJADMLI|Kind=1|AlternatePart= 
-Variation169=Designator=R529|UniqueId=\YXJRNMRZ\XEIPAYLG|Kind=1|AlternatePart= 
-Variation170=Designator=R531|UniqueId=\YXJRNMRZ\XHJKJAWE|Kind=1|AlternatePart= 
+Variation169=Designator=R529|UniqueId=\YXJRNMRZ\XEIPAYLG|Kind=0|AlternatePart= 
+Variation170=Designator=R531|UniqueId=\YXJRNMRZ\XHJKJAWE|Kind=0|AlternatePart= 
 Variation171=Designator=R594|UniqueId=\YXJRNMRZ\CKRGKFSQ\YSMWDQFY|Kind=1|AlternatePart= 
 Variation172=Designator=R591|UniqueId=\YXJRNMRZ\CKRGKFSQ\SHFXQHRG|Kind=1|AlternatePart= 
 Variation173=Designator=R607|UniqueId=\YXJRNMRZ\KSPXXJER\TAFGUZWP|Kind=1|AlternatePart= 
@@ -1215,11 +1215,11 @@ Variation175=Designator=R516|UniqueId=\DCRWQNJK\ZSFNXNTN\ALOFFCUB|Kind=1|Alterna
 Variation176=Designator=R517|UniqueId=\DCRWQNJK\ZSFNXNTN\NDDNTBHU|Kind=1|AlternatePart= 
 Variation177=Designator=C889|UniqueId=\DCRWQNJK\PJWSAGPN\MSPTYHZB|Kind=0|AlternatePart= 
 Variation178=Designator=R680|UniqueId=\DCRWQNJK\PJWSAGPN\DWKJLKHA|Kind=1|AlternatePart= 
-Variation179=Designator=R685|UniqueId=\YXJRNMRZ\RRHPCRKK\WXQNTKIF|Kind=1|AlternatePart= 
-Variation180=Designator=R684|UniqueId=\YXJRNMRZ\RRHPCRKK\MNDXIOHI|Kind=1|AlternatePart= 
-Variation181=Designator=R686|UniqueId=\YXJRNMRZ\RRHPCRKK\FJTEGNUF|Kind=1|AlternatePart= 
-Variation182=Designator=R683|UniqueId=\YXJRNMRZ\RRHPCRKK\IIPCEHFB|Kind=1|AlternatePart= 
-Variation183=Designator=R679|UniqueId=\YXJRNMRZ\RRHPCRKK\YWJLSAFQ|Kind=1|AlternatePart= 
+Variation179=Designator=R685|UniqueId=\YXJRNMRZ\RRHPCRKK\WXQNTKIF|Kind=0|AlternatePart= 
+Variation180=Designator=R684|UniqueId=\YXJRNMRZ\RRHPCRKK\MNDXIOHI|Kind=0|AlternatePart= 
+Variation181=Designator=R686|UniqueId=\YXJRNMRZ\RRHPCRKK\FJTEGNUF|Kind=0|AlternatePart= 
+Variation182=Designator=R683|UniqueId=\YXJRNMRZ\RRHPCRKK\IIPCEHFB|Kind=0|AlternatePart= 
+Variation183=Designator=R679|UniqueId=\YXJRNMRZ\RRHPCRKK\YWJLSAFQ|Kind=0|AlternatePart= 
 Variation184=Designator=R678|UniqueId=\YXJRNMRZ\KURSMZLE|Kind=1|AlternatePart= 
 Variation185=Designator=R681|UniqueId=\YXJRNMRZ\OPERVIHJ|Kind=2|AlternatePart==Value|AltLibLink_LibIdentifierKind=Library Full Path|AltLibLink_LibraryIdentifier=D:\DESIGNS\Libs\CernLib\Resistors.DbLib/Resistors SMD|AltLibLink_SymbolReference= |AltLibLink_DesignItemID=R0402_0R_JUMPER|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=Resistors.DbLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName=Resistors SMD|AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=RESC1005X40N|AltLibLink_IsSameFootprint=True
 ParamVariation1=ParameterName=Comment|VariantValue==Value
@@ -1355,6 +1355,14 @@ Variation191=Designator=R693|UniqueId=\DCRWQNJK\PJWSAGPN\LGOFERLV|Kind=1|Alterna
 Variation192=Designator=R694|UniqueId=\DCRWQNJK\PJWSAGPN\RJUZADBM|Kind=1|AlternatePart= 
 Variation193=Designator=R695|UniqueId=\DCRWQNJK\PJWSAGPN\MNUWJMXC|Kind=1|AlternatePart= 
 Variation194=Designator=R696|UniqueId=\DCRWQNJK\PJWSAGPN\XACOECPL|Kind=1|AlternatePart= 
+Variation195=Designator=R519|UniqueId=\YXJRNMRZ\RRHPCRKK\ELNYSGMQ|Kind=1|AlternatePart= 
+Variation196=Designator=R520|UniqueId=\YXJRNMRZ\RRHPCRKK\QQAYOAYS|Kind=1|AlternatePart= 
+Variation197=Designator=R650|UniqueId=\YXJRNMRZ\RRHPCRKK\PWDJZSSL|Kind=1|AlternatePart= 
+Variation198=Designator=R524|UniqueId=\YXJRNMRZ\RRHPCRKK\ZTBUTXPK|Kind=1|AlternatePart= 
+Variation199=Designator=R521|UniqueId=\YXJRNMRZ\RRHPCRKK\GOXJELLI|Kind=1|AlternatePart= 
+Variation200=Designator=R525|UniqueId=\YXJRNMRZ\RRHPCRKK\JTHCMLBP|Kind=1|AlternatePart= 
+Variation201=Designator=R558|UniqueId=\YXJRNMRZ\YWNWTZXE|Kind=1|AlternatePart= 
+Variation202=Designator=R561|UniqueId=\YXJRNMRZ\TETKJLYP|Kind=1|AlternatePart= 
 ParamVariationCount=62
 
 [ProjectVariant3]
