@@ -21,7 +21,7 @@ TargetOutputMedium=Folder Structure
 VariantName=[No Variations]
 VariantScope=0
 CurrentConfigurationName=
-TargetPrinter=Brother DCP-1610W series Printer
+TargetPrinter=Brother DCP-1610W series
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=0
 OutputMedium1=Print Job
 OutputMedium1_Type=Printer
@@ -219,7 +219,7 @@ Configuration11_Item2=OpenExported=False|AddToProject=False|ReportBOMViolationsI
 Configuration11_Name3=GroupOrder
 Configuration11_Item3=Comment=True|Footprint=True|Manufacturer Part Number=True
 Configuration11_Name4=SortOrder
-Configuration11_Item4=Designator=Up|Comment=Up
+Configuration11_Item4=Comment=Down
 Configuration11_Name5=VisibleOrder
 Configuration11_Item5=Comment=100|Description=120|Designator=120|Manufacturer=92|Manufacturer Part Number=328|Quantity=120|LibRef=100
 Configuration11_Name6=VisibleOrder_Flat
@@ -243,10 +243,10 @@ OutputName13=Generates pick and place files
 OutputCategory13=Assembly
 OutputDocumentPath13=AFCZ.PcbDoc
 OutputVariantName13=
-OutputEnabled13=1
+OutputEnabled13=0
 OutputEnabled13_OutputMedium1=0
 OutputEnabled13_OutputMedium2=0
-OutputEnabled13_OutputMedium3=6
+OutputEnabled13_OutputMedium3=0
 OutputEnabled13_OutputMedium4=0
 OutputEnabled13_OutputMedium5=0
 OutputDefault13=0
